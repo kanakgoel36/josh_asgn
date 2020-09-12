@@ -1,0 +1,72 @@
+.maincontainer_connected_lifestyle{
+    margin-left: 150px;
+    margin-right: 150px;
+    border: 2px solid lightgrey;
+  }
+.maincontainer_connected_lifestyle hr{
+    font-weight: normal;
+    margin-left: 30px;
+    color: rgb(56, 160, 56);
+    margin-right: 30px;
+    border: 0.1px solid rgb(56, 160, 56);
+  }
+
+.maincontainer_connected_lifestyle h3{
+    font-weight: normal;
+    margin-left: 30px;
+    color: rgb(56, 160, 56);
+    margin-right: 30px;
+    
+  }
+
+  @media screen and (max-width: 600px) {
+    .maincontainer_connected_lifestyle{
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+    /* grid-column-gap: 20px; */
+    /* background-color: #2196F3; */
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+@media screen and (max-width: 600px) {
+    .grid-container{
+        display: grid;
+        text-align: center;
+        justify-content: center;
+        grid-template-columns: 1fr;
+        /* grid-column-gap: 20px; */
+        /* background-color: #2196F3; */
+        padding: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
+        
+    }
+  }
+@media screen and (max-width: 600px) {
+    .card{
+        display: grid;
+        text-align: center;
+        justify-content: center;
+        width: 50%;
+    }
+  }
+
+.grid-item {
+    padding: 20px;
+    font-size: 17px;
+    text-align: left;
+    
+}
+.border-line{
+  border-left: 2px solid lightgray;
+}
+.card {
+    width: 100%;
+  }
